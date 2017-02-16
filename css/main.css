@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  background-image: url("../images/weather.png");
+}
+header {
+  height: 150px;
+  background-image: url("../images/machu-pichu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+form {
+  margin: 10px auto;
+  width: 400px;
+  height: 200px;
+  /*
+  border: 2px solid black;
+  border-radius: 25px;
+  */
+}
+
+div {
+  margin: 1em;
+}
+
+h1 {
+  text-align: center;
+  /*background-color: cyan;*/
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#button {
+  text-align: center;
+}
+
+#button input {
+  border-radius: 10px;
+}
+
+input:invalid {
+  background-color: #EAA79B;
+}
+
+input:valid {
+  background-color: #86C98A;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+.test {
+  text-align: center;
+}
